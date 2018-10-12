@@ -57,6 +57,11 @@ output "id" {
 
 Originally created by [Alexander Shapoval](http://github.com/ashapoms)
 
+## License
+
+[MIT](LICENSE)
+
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
