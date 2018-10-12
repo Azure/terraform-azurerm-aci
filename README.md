@@ -8,7 +8,7 @@ The module demonstrates the fastest and simplest way to run a container in Azure
 
 ## Usage
 
-```
+```hcl
 module "aci" {
   source                = "Azure/aci/azurerm"
   resource_group_name   = "MyContGroup-RG01"
@@ -26,7 +26,7 @@ module "aci" {
 
 ## Example creating container based on image from Docker Hub 
 
-```
+```hcl
 variable "resource_group_name" {
   default = "test-aci-rg01"
 }
