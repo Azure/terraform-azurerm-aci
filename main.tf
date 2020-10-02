@@ -16,6 +16,9 @@ resource "azurerm_container_group" "containergroup" {
     image  = var.image_name
     cpu    = var.cpu_core_number
     memory = var.memory_size
-    port   = var.port_number
+    ports {
+      port     = var.port_number
+      protocol = var.port_protocol
+    }
   }
 }
