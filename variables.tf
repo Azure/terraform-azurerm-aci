@@ -54,3 +54,9 @@ variable "port_number" {
   default     = 80
   description = "A public port for the container"
 }
+
+variable "port_protocol" {
+  type        = string
+  default     = "TCP"
+  description = "Protocol used for exposed port (Valid values are TCP or UDP, defaults to TCP) "
+}
